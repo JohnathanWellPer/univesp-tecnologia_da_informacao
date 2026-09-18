@@ -34,7 +34,7 @@
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/JohnathanWellPer/etec-desenvolvimento_de_sistemas">
-    <img src="https://img.shields.io/badge/ETEC-Systems_Development-100000?style=for-the-badge&logo=github&logoColor=white" alt="ETEC Portfolio">
+    <img src="https://img.shields.io/badge/ETEC-Systems_Development_Technician-100000?style=for-the-badge&logo=github&logoColor=white" alt="ETEC Portfolio">
   </a>
 </div>
 
