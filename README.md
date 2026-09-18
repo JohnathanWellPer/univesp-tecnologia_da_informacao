@@ -27,16 +27,31 @@
 
 ---
 
+<div align="center">
+  <h2>Featured Repositories<br>Repositórios em Destaque</h2>
+  <a href="https://github.com/JohnathanWellPer">
+    <img src="https://img.shields.io/badge/Main_Profile-Overview-100000?style=for-the-badge&logo=github&logoColor=white" alt="Main Profile">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/JohnathanWellPer/etec-desenvolvimento_de_sistemas">
+    <img src="https://img.shields.io/badge/ETEC-Systems_Development-100000?style=for-the-badge&logo=github&logoColor=white" alt="ETEC Portfolio">
+  </a>
+</div>
+
+<br/>
+
+---
+
 <h2 id="english">Profile</h2>
 
 **Academic Curriculum (UNIVESP):**
 
-- **Semester 1:** Ethics, Citizenship and Society | English | Reading and Text Production | Basic Mathematics | Computational Thinking | Projects and Methods for Knowledge Production.
-- **Semester 2:** Algorithms and Computer Programming I and II | Calculus I | Internet and Web Fundamentals | Mathematical Foundations for Computing | Introduction to Computing Concepts.
-- **Semester 3:** Statistics and Probability | Data Structures | Professional Training in Computing | Innovation Management and Product Development | Object-Oriented Programming | Computer Systems.
-- **Semester 4:** Database | Web Development | Infrastructure for Software Systems | Human-Computer Interface | Integrative Project in Computing I.
-- **Semester 5:** Machine Learning Applications | Mobile Device Development | Software Engineering | Integrative Project in Computing II | Information Security.
-- **Semester 6:** Scalable Computing | Software Management and Quality | Strategic Business Planning | Integrative Project in Computing III | Information Systems.
+- **Semester 1:** Ethics, Citizenship and Society | English | Reading and Text Production | Basic Mathematics | Computational Thinking | Projects and Methods for Knowledge Production[cite: 2].
+- **Semester 2:** Algorithms and Computer Programming I and II | Calculus I | Internet and Web Fundamentals | Mathematical Foundations for Computing | Introduction to Computing Concepts[cite: 2].
+- **Semester 3:** Statistics and Probability | Data Structures | Professional Training in Computing | Innovation Management and Product Development | Object-Oriented Programming | Computer Systems[cite: 2].
+- **Semester 4:** Database | Web Development | Infrastructure for Software Systems | Human-Computer Interface | Integrative Project in Computing I[cite: 2].
+- **Semester 5:** Machine Learning Applications | Mobile Device Development | Software Engineering | Integrative Project in Computing II | Information Security[cite: 2].
+- **Semester 6:** Scalable Computing | Software Management and Quality | Strategic Business Planning | Integrative Project in Computing III | Information Systems[cite: 2].
 
 <br/>
 
@@ -46,12 +61,12 @@
 
 **Matriz Curricular (UNIVESP):**
 
-- **Semestre 1:** Ética, Cidadania e Sociedade | Inglês | Leitura e Produção de Textos | Matemática Básica | Pensamento Computacional | Projetos e Métodos para Produção do Conhecimento.
-- **Semestre 2:** Algoritmos e Programação de Computadores I e II | Cálculo I | Fundamentos de Internet e Web | Fundamentos Matemáticos para Computação | Introdução a Conceitos de Computação.
-- **Semestre 3:** Estatística e Probabilidade | Estruturas de Dados | Formação Profissional em Computação | Gestão da Inovação e Desenvolvimento de Produtos | Programação Orientada a Objetos | Sistemas Computacionais.
-- **Semestre 4:** Banco de Dados | Desenvolvimento Web | Infraestrutura para Sistemas de Software | Interface Humano-Computador | Projeto Integrador em Computação I.
-- **Semestre 5:** Aplicações em Aprendizado de Máquina | Desenvolvimento para Dispositivos Móveis | Engenharia de Software | Projeto Integrador em Computação II | Segurança da Informação.
-- **Semestre 6:** Computação Escalável | Gerência e Qualidade de Software | Planejamento Estratégico de Negócios | Projeto Integrador em Computação III | Sistemas de Informação.
+- **Semestre 1:** Ética, Cidadania e Sociedade | Inglês | Leitura e Produção de Textos | Matemática Básica | Pensamento Computacional | Projetos e Métodos para Produção do Conhecimento[cite: 2].
+- **Semestre 2:** Algoritmos e Programação de Computadores I e II | Cálculo I | Fundamentos de Internet e Web | Fundamentos Matemáticos para Computação | Introdução a Conceitos de Computação[cite: 2].
+- **Semestre 3:** Estatística e Probabilidade | Estruturas de Dados | Formação Profissional em Computação | Gestão da Inovação e Desenvolvimento de Produtos | Programação Orientada a Objetos | Sistemas Computacionais[cite: 2].
+- **Semestre 4:** Banco de Dados | Desenvolvimento Web | Infraestrutura para Sistemas de Software | Interface Humano-Computador | Projeto Integrador em Computação I[cite: 2].
+- **Semestre 5:** Aplicações em Aprendizado de Máquina | Desenvolvimento para Dispositivos Móveis | Engenharia de Software | Projeto Integrador em Computação II | Segurança da Informação[cite: 2].
+- **Semestre 6:** Computação Escalável | Gerência e Qualidade de Software | Planejamento Estratégico de Negócios | Projeto Integrador em Computação III | Sistemas de Informação[cite: 2].
 
 <br/>
 
@@ -59,7 +74,7 @@
 
 <div align="center">
   <h2>GitHub Stats<br>Estatísticas do GitHub</h2>
-  <img src="https://github.readme-stats.vercel.app/api?username=JohnathanWellPer&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5" alt="GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JohnathanWellPer&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5" alt="GitHub Stats" height="150" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JohnathanWellPer&layout=compact&theme=transparent&hide_border=true&title_color=0077B5" alt="Top Languages" height="150" />
 </div>
 
