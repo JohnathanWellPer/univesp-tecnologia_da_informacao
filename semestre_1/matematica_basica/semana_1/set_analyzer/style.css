@@ -1,0 +1,74 @@
+/* VARIÁVEIS DO DESIGN SYSTEM */
+:root {
+    --bg-color: #f4f7f9;
+    --card-bg: #ffffff;
+    --text-main: #333333;
+    --primary-color: #0078D6; /* Azul Corporativo */
+    --secondary-color: #8E75B2; /* Roxo Interseção */
+    --tertiary-color: #F38020; /* Laranja União */
+    --success-color: #4EAA25; /* Verde Copiar */
+    --danger-color: #E52207; /* Vermelho Limpar */
+    --border-color: #e5e7eb;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+body { 
+    background-color: var(--bg-color); 
+    color: var(--text-main); 
+    display: flex; 
+    justify-content: center; 
+    padding: 40px 20px;
+}
+
+.container { 
+    max-width: 900px; 
+    width: 100%; 
+    background: var(--card-bg); 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+header { border-bottom: 1px solid var(--border-color); padding-bottom: 15px; margin-bottom: 25px; }
+h1 { font-size: 1.8rem; color: var(--primary-color); margin-bottom: 5px; }
+p.desc { color: #666; font-size: 0.95rem; line-height: 1.5; }
+
+/* LAYOUT PRINCIPAL (Inputs lado a lado com os botões) */
+.main-content { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-bottom: 30px; }
+@media(max-width: 768px) { .main-content { grid-template-columns: 1fr; } }
+
+.input-panel { display: flex; gap: 15px; }
+.list-container { flex: 1; display: flex; flex-direction: column; }
+.list-container label { font-weight: 600; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;}
+.badge { background: #e2e8f0; font-size: 0.75rem; padding: 2px 6px; border-radius: 4px; color: #475569; }
+
+textarea {
+    width: 100%; height: 200px; padding: 12px; border: 1px solid var(--border-color); 
+    border-radius: 6px; font-size: 0.9rem; resize: vertical; outline: none; transition: border 0.2s;
+    white-space: pre; overflow-wrap: normal; overflow-x: auto;
+}
+textarea:focus { border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(0, 120, 214, 0.1); }
+
+/* PAINEL DE AÇÕES */
+.action-panel { display: flex; flex-direction: column; gap: 10px; background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid var(--border-color); }
+.action-panel h3 { font-size: 1rem; margin-bottom: 10px; text-align: center; }
+
+.btn { border: none; padding: 10px 15px; border-radius: 6px; font-weight: 600; cursor: pointer; transition: 0.2s; color: white; font-size: 0.9rem; }
+.btn-primary { background-color: var(--secondary-color); }
+.btn-primary:hover { background-color: #725d8f; }
+.btn-secondary { background-color: var(--primary-color); }
+.btn-secondary:hover { background-color: #005bb5; }
+.btn-tertiary { background-color: var(--tertiary-color); }
+.btn-tertiary:hover { background-color: #d16b17; }
+.btn-danger { background-color: white; color: var(--danger-color); border: 1px solid var(--danger-color); margin-top: auto; }
+.btn-danger:hover { background-color: #fef2f2; }
+.btn-copy { background-color: var(--success-color); margin-top: 10px; width: 100%; }
+.btn-copy:hover { background-color: #3b82f6; }
+.btn-copy:disabled { background-color: #ccc; cursor: not-allowed; }
+
+/* PAINEL DE RESULTADO */
+.result-section { border-top: 1px dashed var(--border-color); padding-top: 25px; }
+.result-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.count-badge { background: var(--primary-color); color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+#outputResult { height: 150px; background-color: #f0fdf4; border-color: var(--success-color); }

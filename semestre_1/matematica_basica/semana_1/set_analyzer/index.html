@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetAnalyzer Pro | Teoria dos Conjuntos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>SetAnalyzer Pro</h1>
+            <p class="desc">Aplicação prática da Teoria dos Conjuntos Matemáticos para análise de dados corporativos (E-mails, CPFs, IDs). Cole suas listas abaixo.</p>
+        </header>
+
+        <div class="main-content">
+            <!-- PAINEL DE ENTRADA (Listas) -->
+            <div class="input-panel">
+                <div class="list-container">
+                    <label for="listA">Conjunto A <span class="badge">Lista 1</span></label>
+                    <textarea id="listA" placeholder="Cole os dados aqui (um por linha)...&#10;Ex:&#10;joao@email.com&#10;maria@email.com"></textarea>
+                </div>
+                <div class="list-container">
+                    <label for="listB">Conjunto B <span class="badge">Lista 2</span></label>
+                    <textarea id="listB" placeholder="Cole os dados aqui (um por linha)...&#10;Ex:&#10;maria@email.com&#10;pedro@email.com"></textarea>
+                </div>
+            </div>
+
+            <!-- PAINEL DE AÇÕES (Matemática) -->
+            <div class="action-panel">
+                <h3>Operações Matemáticas</h3>
+                <button onclick="calculateIntersection()" class="btn btn-primary" title="Elementos que pertencem a A e a B">
+                    Interseção (A ∩ B)
+                </button>
+                <button onclick="calculateDifferenceA()" class="btn btn-secondary" title="Elementos exclusivos de A">
+                    Diferença (A - B)
+                </button>
+                <button onclick="calculateDifferenceB()" class="btn btn-secondary" title="Elementos exclusivos de B">
+                    Diferença (B - A)
+                </button>
+                <button onclick="calculateUnion()" class="btn btn-tertiary" title="Todos os elementos únicos">
+                    União (A ∪ B)
+                </button>
+                <button onclick="clearData()" class="btn btn-danger">Limpar Dados</button>
+            </div>
+        </div>
+
+        <!-- PAINEL DE RESULTADO -->
+        <div id="resultSection" class="result-section">
+            <div class="result-header">
+                <h3 id="resultTitle">Resultado da Operação</h3>
+                <span id="resultCount" class="count-badge">0 itens</span>
+            </div>
+            <textarea id="outputResult" readonly placeholder="O resultado aparecerá aqui..."></textarea>
+            <button onclick="copyResult()" id="btnCopy" class="btn btn-copy" disabled>📋 Copiar Resultado</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
