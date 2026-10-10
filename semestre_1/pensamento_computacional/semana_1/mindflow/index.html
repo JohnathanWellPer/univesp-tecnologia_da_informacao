@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindFlow | Pensamento Computacional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>MindFlow</h1>
+            <p class="desc">Resolva problemas complexos aplicando os 4 pilares do Pensamento Computacional: Decomposição, Reconhecimento de Padrões, Abstração e Algoritmos.</p>
+        </header>
+
+        <!-- PASSO 1: O PROBLEMA MACRO -->
+        <section id="step-1" class="step-section active">
+            <h2>1. Qual é o problema?</h2>
+            <p>Defina o desafio complexo que você precisa resolver hoje.</p>
+            <input type="text" id="macroProblem" placeholder="Ex: Organizar o evento da faculdade..." autofocus>
+            <button onclick="startDecomposition()" class="btn-primary">Iniciar Decomposição</button>
+        </section>
+
+        <!-- PASSO 2: DECOMPOSIÇÃO -->
+        <section id="step-2" class="step-section">
+            <h2>2. Decomposição</h2>
+            <p>Quebre o problema "<span id="displayProblem" class="highlight"></span>" em pequenas tarefas (subproblemas).</p>
+            <div class="input-group">
+                <input type="text" id="newTaskInput" placeholder="Ex: Alugar o som...">
+                <button onclick="addTask()" class="btn-secondary">Adicionar</button>
+            </div>
+            <ul id="taskList" class="task-list"></ul>
+            <button onclick="goToPatterns()" class="btn-primary" id="btnPatterns" disabled>Avançar para Padrões</button>
+        </section>
+
+        <!-- PASSO 3: RECONHECIMENTO DE PADRÕES -->
+        <section id="step-3" class="step-section">
+            <h2>3. Reconhecimento de Padrões</h2>
+            <p>Agrupe as tarefas por características semelhantes (Ex: Financeiro, Logística, Contato).</p>
+            <div id="patternsContainer" class="patterns-container"></div>
+            <button onclick="goToAbstraction()" class="btn-primary">Avançar para Abstração</button>
+        </section>
+
+        <!-- PASSO 4: ABSTRAÇÃO -->
+        <section id="step-4" class="step-section">
+            <h2>4. Abstração</h2>
+            <p>Filtre os dados: marque apenas as tarefas que são estritamente essenciais para resolver o problema principal agora. Ignore o resto.</p>
+            <div id="abstractionContainer" class="abstraction-container"></div>
+            <button onclick="generateAlgorithm()" class="btn-primary">Gerar Algoritmo Final</button>
+        </section>
+
+        <!-- PASSO 5: ALGORITMO FINAL -->
+        <section id="step-5" class="step-section">
+            <h2>5. Algoritmo de Resolução</h2>
+            <p>Aqui está a sequência lógica e estruturada para executar a solução do seu problema, livre de ruídos.</p>
+            <div id="algorithmOutput" class="algorithm-output"></div>
+            <button onclick="resetFlow()" class="btn-secondary">Resolver Novo Problema</button>
+        </section>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
