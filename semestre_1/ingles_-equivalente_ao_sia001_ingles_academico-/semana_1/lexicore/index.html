@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexiCore | English Dictionary</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>LexiCore Dictionary</h1>
+            <p class="desc">Aprimore seu vocabulário explorando definições, pronúncia nativa e classes gramaticais (Parts of Speech) conectadas em tempo real.</p>
+        </header>
+
+        <!-- PAINEL DE BUSCA -->
+        <div class="search-panel">
+            <input type="text" id="searchInput" placeholder="Digite uma palavra em inglês (ex: keyboard, develop, focus)..." onkeypress="handleEnter(event)">
+            <button onclick="searchWord()" id="btnSearch" class="btn-primary">Search</button>
+        </div>
+
+        <!-- MENSAGEM DE CARREGAMENTO -->
+        <div id="loading" class="hidden">
+            <p>Consultando o servidor...</p>
+        </div>
+
+        <!-- MENSAGEM DE ERRO -->
+        <div id="errorMsg" class="hidden">
+            <p>Palavra não encontrada. Verifique a ortografia e tente novamente.</p>
+        </div>
+
+        <!-- PAINEL DE RESULTADOS (Invisível até a busca ter sucesso) -->
+        <div id="resultPanel" class="result-panel hidden">
+            <div class="word-header">
+                <div>
+                    <h2 id="wordTitle">Word</h2>
+                    <span id="wordPhonetic" class="phonetic">/wɜːd/</span>
+                </div>
+                <!-- Botão que tocará o áudio nativo -->
+                <button onclick="playAudio()" id="btnAudio" class="btn-audio hidden" title="Ouvir pronúncia">🔊 Listen</button>
+            </div>
+
+            <!-- Container onde o JS vai injetar os significados dinamicamente -->
+            <div id="meaningsContainer" class="meanings-container"></div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* VARIÁVEIS DO DESIGN SYSTEM */
+:root {
+    --bg-color: #f4f7f9;
+    --card-bg: #ffffff;
+    --text-main: #333333;
+    --primary-color: #2b5797; /* Azul Escuro Acadêmico */
+    --accent-color: #e3a21a; /* Amarelo Mostarda para Destaques */
+    --error-color: #E52207;
+    --border-color: #e5e7eb;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+
+body { background-color: var(--bg-color); color: var(--text-main); display: flex; justify-content: center; padding: 40px 20px; }
+
+.container { max-width: 800px; width: 100%; background: var(--card-bg); padding: 40px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+
+header { border-bottom: 2px solid var(--border-color); padding-bottom: 20px; margin-bottom: 30px; }
+h1 { font-size: 2rem; color: var(--primary-color); margin-bottom: 5px; }
+p.desc { color: #666; line-height: 1.5; }
+
+/* BARRA DE BUSCA */
+.search-panel { display: flex; gap: 10px; margin-bottom: 30px; }
+input[type="text"] { flex: 1; padding: 15px; border: 2px solid var(--border-color); border-radius: 8px; font-size: 1rem; outline: none; transition: 0.2s; }
+input[type="text"]:focus { border-color: var(--primary-color); }
+
+button { border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 1rem; }
+.btn-primary { background-color: var(--primary-color); color: white; padding: 0 30px; }
+.btn-primary:hover { background-color: #1e3f6e; }
+
+/* ESTADOS E OCULTAÇÕES DINÂMICAS */
+.hidden { display: none !important; }
+#loading p { color: var(--primary-color); font-weight: 600; text-align: center; }
+#errorMsg p { color: var(--error-color); font-weight: 600; text-align: center; background: #fee2e2; padding: 15px; border-radius: 8px; }
+
+/* PAINEL DE RESULTADOS */
+.result-panel { background: #f8fafc; padding: 25px; border-radius: 8px; border: 1px solid var(--border-color); }
+.word-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 15px; margin-bottom: 20px; }
+h2#wordTitle { font-size: 2.5rem; color: var(--text-main); text-transform: capitalize; }
+.phonetic { color: #666; font-size: 1.2rem; font-family: monospace; }
+
+.btn-audio { background-color: var(--accent-color); color: white; padding: 10px 20px; display: flex; align-items: center; gap: 8px; }
+.btn-audio:hover { background-color: #c78d15; }
+
+/* CLASSES GRAMATICAIS (PARTS OF SPEECH) GERADAS PELO JS */
+.meaning-block { margin-bottom: 25px; }
+.part-of-speech { display: inline-block; background: var(--primary-color); color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; text-transform: uppercase; margin-bottom: 10px; }
+.definition-item { margin-bottom: 10px; line-height: 1.5; padding-left: 15px; border-left: 3px solid var(--border-color); }
+.example-text { color: #666; font-style: italic; display: block; margin-top: 5px; }
