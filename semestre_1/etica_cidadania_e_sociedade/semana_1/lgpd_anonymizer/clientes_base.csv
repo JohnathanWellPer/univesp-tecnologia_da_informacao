@@ -1,0 +1,6 @@
+ID,NOME,CPF,EMAIL,SALARIO,DEPARTAMENTO
+1,Johnathan Pereira,123.456.789-00,johnathan.pereira@email.com.br,4500.00,TI
+2,Maria da Silva,987.654.321-99,mariasilva@empresa.com,8200.00,Diretoria
+3,Pedro Souza,456.123.789-44,pedrinho_souza@gmail.com,3100.00,Vendas
+4,Ana Beatriz,321.654.987-11,ana.beatriz@email.com,5400.00,Marketing
+5,Carlos Augusto,111.222.333-44,carlos.augusto@provedor.net,2900.00,Logistica

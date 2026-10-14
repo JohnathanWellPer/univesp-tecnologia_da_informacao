@@ -1,0 +1,6 @@
+ID,NOME,CPF,EMAIL,SALARIO,DEPARTAMENTO
+1,Johnathan Pereira,***.456.789-**,j***@email.com.br,[CONFIDENCIAL],TI
+2,Maria da Silva,***.654.321-**,m***@empresa.com,[CONFIDENCIAL],Diretoria
+3,Pedro Souza,***.123.789-**,p***@gmail.com,[CONFIDENCIAL],Vendas
+4,Ana Beatriz,***.654.987-**,a***@email.com,[CONFIDENCIAL],Marketing
+5,Carlos Augusto,***.222.333-**,c***@provedor.net,[CONFIDENCIAL],Logistica
