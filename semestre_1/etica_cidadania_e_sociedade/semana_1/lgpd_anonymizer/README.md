@@ -41,14 +41,14 @@ A Command-Line Interface (CLI) Python tool designed for data engineering and HR/
 ### Business Rules (Applied Logic)
 
 1. **Heteronomy & Legal Compliance:** The script codifies social laws (LGPD) into automated actions, stripping sensitive identifiers (CPF, Email, Salary) to protect third-party dignity and avoid corporate liabilities.
-2. **Native Standard Libraries:** Built strictly with Python's native `csv` and `os` modules. No external dependencies (like Pandas) were used, ensuring extreme portability and immediate execution in any zero-setup environment.
+​2. **Native Standard Libraries:** Built strictly with Python's native `csv` and `os` modules. No external dependencies (like Pandas) were used, ensuring extreme portability and immediate execution in any zero-setup environment.
 3. **Data Immutability:** The algorithm relies on defensive data handling. It never overwrites the original file; instead, it parses memory nodes row by row and writes to a completely new output file, preserving the integrity of the raw data.
 4. **Conditional Masking:** Applies specific string-slicing logic depending on the data type (e.g., preserving domain providers in emails while scrambling usernames, or slicing the first and last digits of a national ID).
 
 ### How to Run (Local Deploy)
 
 1. Clone this repository or download the files.
-2. Open your terminal or command prompt.
+​2. Open your terminal or command prompt.
 3. Navigate to the folder containing the script.
 4. Execute the command: `python anonymizer.py`
 5. Check the newly generated `clientes_anonimizados.csv` file.
@@ -68,7 +68,7 @@ Uma ferramenta de Linha de Comando (CLI) em Python projetada para engenharia de 
 ### Regras de Negócio (Lógica Aplicada)
 
 1. **Heteronomia e Conformidade Legal:** O script codifica leis sociais (LGPD) em ações automatizadas, removendo identificadores sensíveis (CPF, E-mail, Salário) para proteger a dignidade de terceiros e evitar passivos corporativos.
-2. **Bibliotecas Nativas:** Construído estritamente com os módulos nativos `csv` e `os` do Python. Nenhuma dependência externa (como Pandas) foi utilizada, garantindo extrema portabilidade e execução imediata em qualquer ambiente sem necessidade de instalação de pacotes.
+​2. **Bibliotecas Nativas:** Construído estritamente com os módulos nativos `csv` e `os` do Python. Nenhuma dependência externa (como Pandas) foi utilizada, garantindo extrema portabilidade e execução imediata em qualquer ambiente sem necessidade de instalação de pacotes.
 3. **Imutabilidade de Dados:** O algoritmo baseia-se no manuseio defensivo de dados. Ele nunca sobrescreve o arquivo original; em vez disso, analisa os nós em memória linha por linha e escreve em um arquivo de saída completamente novo, preservando a integridade dos dados brutos.
 4. **Mascaramento Condicional:** Aplica fatiamento de strings (slicing) específico dependendo do tipo de dado (ex: preserva provedores de domínio em e-mails enquanto oculta o nome do usuário, ou substitui os primeiros e últimos dígitos do CPF por asteriscos).
 
@@ -76,6 +76,6 @@ Uma ferramenta de Linha de Comando (CLI) em Python projetada para engenharia de 
 
 <div align="center">
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
-    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
+    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-D13239?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
