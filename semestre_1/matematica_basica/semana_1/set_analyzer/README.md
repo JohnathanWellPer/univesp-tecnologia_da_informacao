@@ -44,7 +44,7 @@ An autonomous client-side web tool for corporate data analysis. The system parse
 The system's intelligence was structured under four logical pillars of software engineering:
 
 1. **Native ES6 Sets:** The JS engine captures raw strings and converts them into native Set objects, instantly eliminating duplication (Idempotence).
-2. **Intersection (A ∩ B):** Implemented via array `filter()` and Set `has()` methods to return elements existing simultaneously in both datasets.
+​2. **Intersection (A ∩ B):** Implemented via array `filter()` and Set `has()` methods to return elements existing simultaneously in both datasets.
 3. **Difference (A - B / B - A):** Isolates exclusive elements present in one set but completely absent in the other.
 4. **Union (A ∪ B) & Clipboard API:** Leverages the spread operator to merge lists and integrates the native `navigator.clipboard.writeText()` API, allowing users to copy the text with a single click.
 
@@ -53,7 +53,7 @@ The system's intelligence was structured under four logical pillars of software 
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers.
 
 1. Clone this repository or download the files.
-2. Navigate to the folder and double-click the `index.html` file.
+​2. Navigate to the folder and double-click the `index.html` file.
 3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
 
 <br/>
@@ -73,7 +73,7 @@ Uma ferramenta autônoma operando no lado do cliente (Client-Side) para análise
 A inteligência do sistema foi estruturada sob quatro pilares lógicos de engenharia de software:
 
 1. **Objetos Set Nativos (ES6):** O motor JS captura as strings brutas e as converte em objetos Set nativos, eliminando duplicidades instantaneamente (Idempotência).
-2. **Interseção (A ∩ B):** Implementada via os métodos `filter()` e `has()` para retornar elementos que existem simultaneamente em ambos os conjuntos de dados.
+​2. **Interseção (A ∩ B):** Implementada via os métodos `filter()` e `has()` para retornar elementos que existem simultaneamente em ambos os conjuntos de dados.
 3. **Diferença (A - B / B - A):** Isola elementos exclusivos presentes em um conjunto, mas completamente ausentes no outro.
 4. **União (A ∪ B) e API de Clipboard:** Utiliza o operador spread para fundir as listas e integra a API nativa do navegador (`Clipboard API`), permitindo que o usuário copie o texto com um único clique.
 
@@ -82,13 +82,13 @@ A inteligência do sistema foi estruturada sob quatro pilares lógicos de engenh
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores.
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
+​2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
-    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
+    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-D13239?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
