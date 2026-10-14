@@ -44,7 +44,7 @@ An autonomous client-side web tool for cognitive productivity. MindFlow forces t
 The system's intelligence was structured strictly under the four pillars of Computational Thinking:
 
 1. **Decomposition:** The JavaScript engine captures a macro problem and requires the user to break it down into smaller, manageable sub-tasks, storing them in an Array of Objects.
-2. **Pattern Recognition:** The UI dynamically renders the array, prompting the user to group sub-tasks by identifying similarities and assigning logical categories/tags.
+​2. **Pattern Recognition:** The UI dynamically renders the array, prompting the user to group sub-tasks by identifying similarities and assigning logical categories/tags.
 3. **Abstraction:** The system filters the data array, allowing the user to discard or hide variables/tasks that are not strictly essential for the immediate resolution of the problem.
 4. **Algorithm Design:** The JS engine sorts and processes the abstracted data, outputting a sequential, logical, and optimized step-by-step execution list (The Final Algorithm).
 
@@ -53,7 +53,7 @@ The system's intelligence was structured strictly under the four pillars of Comp
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers (such as Apache/PHP).
 
 1. Clone this repository or download the files.
-2. Navigate to the folder and double-click the `index.html` file.
+​2. Navigate to the folder and double-click the `index.html` file.
 3. The interface will automatically open in your default web browser, fully ready for interactions and testing.
 
 <br/>
@@ -73,7 +73,7 @@ Uma ferramenta autônoma operando no lado do cliente (Client-Side) voltada para 
 A inteligência do sistema foi estruturada rigorosamente sob os quatro pilares do Pensamento Computacional:
 
 1. **Decomposição:** O motor em JavaScript captura um problema macro e exige que o usuário o quebre em subtarefas menores e gerenciáveis, armazenando-as em um Array de Objetos.
-2. **Reconhecimento de Padrões:** A interface renderiza o array dinamicamente, solicitando que o usuário agrupe as subtarefas identificando semelhanças e atribuindo categorias/tags lógicas.
+​2. **Reconhecimento de Padrões:** A interface renderiza o array dinamicamente, solicitando que o usuário agrupe as subtarefas identificando semelhanças e atribuindo categorias/tags lógicas.
 3. **Abstração:** O sistema filtra o array de dados, permitindo ao usuário descartar ou ocultar variáveis/tarefas que não são estritamente essenciais para a resolução imediata do problema.
 4. **Algoritmos:** O motor JS ordena e processa os dados abstraídos, gerando como saída uma lista de execução passo a passo, sequencial, lógica e otimizada (O Algoritmo Final).
 
@@ -82,13 +82,13 @@ A inteligência do sistema foi estruturada rigorosamente sob os quatro pilares d
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores (como Apache/PHP).
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
+​2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
-    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
+    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-D13239?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
