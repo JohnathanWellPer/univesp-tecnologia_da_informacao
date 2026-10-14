@@ -44,7 +44,7 @@ An autonomous client-side web tool designed to fetch vocabulary data in real-tim
 The system's intelligence was structured under four logical pillars of software engineering:
 
 1. **Asynchronous API Consumption:** The JS engine utilizes `async/await` and the `fetch()` method to securely request data from the *Free Dictionary API* without blocking the UI rendering thread.
-2. **JSON Parsing & Error Handling:** The system validates HTTP response statuses. If a word is not found (404), it throws an exception and dynamically renders a visual error alert. Otherwise, it parses the payload into a JavaScript Object.
+​2. **JSON Parsing & Error Handling:** The system validates HTTP response statuses. If a word is not found (404), it throws an exception and dynamically renders a visual error alert. Otherwise, it parses the payload into a JavaScript Object.
 3. **Dynamic DOM Manipulation:** The UI does not rely on static HTML. The JS engine iterates over the payload array (using `forEach`), injecting structural tags (Parts of Speech) and extracting only the top two definitions to prevent cognitive overload.
 4. **Native Audio Integration:** The system searches the payload for valid `.mp3` phonetics URLs and instantiates the native JS `Audio` object to play the pronunciation via an event listener.
 
@@ -53,7 +53,7 @@ The system's intelligence was structured under four logical pillars of software 
 As a native web application, the system requires no installation of packages, dependencies, databases, or servers.
 
 1. Clone this repository or download the files.
-2. Navigate to the folder and double-click the `index.html` file.
+​2. Navigate to the folder and double-click the `index.html` file.
 3. The interface will automatically open in your default web browser, requiring only an active internet connection to fetch the API data.
 
 <br/>
@@ -73,7 +73,7 @@ Uma ferramenta web autônoma (Client-Side) projetada para buscar dados de vocabu
 A inteligência do sistema foi estruturada sob quatro pilares lógicos de engenharia de software:
 
 1. **Consumo Assíncrono de API:** O motor JS utiliza `async/await` e o método `fetch()` para solicitar dados com segurança da *Free Dictionary API* sem travar a renderização da interface (UI).
-2. **Tratamento de JSON e Erros:** O sistema valida os status da resposta HTTP. Se uma palavra não for encontrada (erro 404), ele dispara uma exceção e renderiza um alerta visual de erro dinamicamente. Caso contrário, converte o pacote de dados em um Objeto JavaScript.
+​2. **Tratamento de JSON e Erros:** O sistema valida os status da resposta HTTP. Se uma palavra não for encontrada (erro 404), ele dispara uma exceção e renderiza um alerta visual de erro dinamicamente. Caso contrário, converte o pacote de dados em um Objeto JavaScript.
 3. **Manipulação Dinâmica do DOM:** A interface não depende de HTML estático. O motor JS itera sobre o array de dados (usando `forEach`), injetando tags estruturais (Classes Gramaticais) e extraindo apenas as duas principais definições para evitar sobrecarga cognitiva no usuário.
 4. **Integração de Áudio Nativo:** O sistema busca no pacote de dados por URLs válidas de fonética `.mp3` e instancia o objeto nativo `Audio` do JS para reproduzir a pronúncia através de um evento de clique.
 
@@ -82,13 +82,13 @@ A inteligência do sistema foi estruturada sob quatro pilares lógicos de engenh
 Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes, dependências, bancos de dados ou servidores.
 
 1. Faça o clone deste repositório ou o download dos arquivos.
-2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
+​2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
 3. A interface abrirá automaticamente no seu navegador web padrão, exigindo apenas uma conexão ativa com a internet para buscar os dados da API.
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
-    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
+    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-D13239?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
