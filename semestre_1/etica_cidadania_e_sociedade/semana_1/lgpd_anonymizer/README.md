@@ -16,7 +16,6 @@
     <b>Tecnologias & Ferramentas</b>
   </p>
 
-  <!-- Shields atualizados na ordem exata solicitada e com o padrão visual do perfil -->
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
   <img src="https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white" alt="Google Chrome" />
   <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
@@ -76,7 +75,7 @@ Uma ferramenta de Linha de Comando (CLI) em Python projetada para engenharia de 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/JohnathanWellPer/univesp">
+  <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
     <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
