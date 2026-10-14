@@ -88,7 +88,7 @@ Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes
 <br/>
 
 <div align="center">
-  <a href="https://github.com/JohnathanWellPer/univesp">
+  <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
     <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
