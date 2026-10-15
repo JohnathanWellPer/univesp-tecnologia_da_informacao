@@ -41,13 +41,13 @@ A Python CLI application designed as a Readability Auditor. The script reads raw
 ### Business Rules (Applied Logic)
 
 1. **Zero-Dependency NLP:** The script eschews heavy libraries like NLTK or SpaCy in favor of Python's native `re` (Regex) module. It implements a custom mathematical heuristic to accurately identify and count continuous vowel groups to estimate syllable density.
-2. **Readability Mathematics:** Implements the algorithm: `248.835 - (1.015 x ASL) - (84.6 x ASW)`, directly correlating Average Sentence Length (ASL) and Average Syllables per Word (ASW) to calculate cognitive load.
+​2. **Readability Mathematics:** Implements the algorithm: `248.835 - (1.015 x ASL) - (84.6 x ASW)`, directly correlating Average Sentence Length (ASL) and Average Syllables per Word (ASW) to calculate cognitive load.
 3. **Social Diagnosis:** Translates raw numerical data into actionable social diagnoses, immediately identifying whether a text democratizes knowledge or enforces exclusionary linguistic barriers.
 
 ### How to Run (Local Deploy)
 
 1. Clone this repository.
-2. Open the terminal and navigate to the project directory.
+​2. Open the terminal and navigate to the project directory.
 3. Execute the command: `python democratizer.py`
 4. The terminal will output the structural statistics (sentences, words, syllables) alongside the final readability score of the target document.
 
@@ -66,13 +66,13 @@ Um aplicativo CLI em Python projetado como um Auditor de Legibilidade. O script 
 ### Regras de Negócio (Lógica Aplicada)
 
 1. **NLP sem Dependências:** O script evita bibliotecas pesadas como NLTK ou SpaCy em favor do módulo nativo `re` (Regex) do Python. Ele implementa uma heurística matemática customizada para identificar e contar grupos vocálicos contínuos, estimando a densidade silábica.
-2. **Matemática da Legibilidade:** Implementa o algoritmo `248.835 - (1.015 x ASL) - (84.6 x ASW)`, correlacionando diretamente o Comprimento Médio da Frase (ASL) e a Média de Sílabas por Palavra (ASW) para calcular a carga cognitiva.
+​2. **Matemática da Legibilidade:** Implementa o algoritmo `248.835 - (1.015 x ASL) - (84.6 x ASW)`, correlacionando diretamente o Comprimento Médio da Frase (ASL) e a Média de Sílabas por Palavra (ASW) para calcular a carga cognitiva.
 3. **Diagnóstico Social:** Traduz dados numéricos brutos em diagnósticos sociais, identificando imediatamente se um texto democratiza o conhecimento ou impõe barreiras linguísticas excludentes.
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
-    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-C8102E?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
+    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-D13239?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
   </a>
 </div>
