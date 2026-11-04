@@ -99,4 +99,12 @@ Por ser uma aplicação web nativa, o sistema não exige instalação de pacotes
 
 1. Faça o clone deste repositório ou o download dos arquivos.
 2. Navegue até a pasta e dê um duplo clique no arquivo `index.html`.
-3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes
+3. A interface abrirá automaticamente no seu navegador web padrão, totalmente pronta para interações e testes.
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/JohnathanWellPer/univesp-tecnologia_da_informacao">
+    <img src="https://img.shields.io/badge/Return_to_UNIVESP_Root-D13239?style=for-the-badge&logo=github&logoColor=white" alt="Return to Root" />
+  </a>
+</div>
