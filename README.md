@@ -47,6 +47,10 @@
   <a href="https://github.com/JohnathanWellPer/etec-desenvolvimento_de_sistemas">
     <img src="https://img.shields.io/badge/ETEC-Systems_Development_Technician-B30000?style=for-the-badge&logo=github&logoColor=white" alt="ETEC Portfolio">
   </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/JohnathanWellPer/senai-fundamentos_de_inteligencia_artificial_generativa_-_google_cloud">
+    <img src="https://img.shields.io/badge/SENAI-Generative_AI_Foundations-FF0000?style=for-the-badge&logo=googlecloud&logoColor=white" alt="SENAI Portfolio">
+  </a>
 </div>
 
 <br/>
