@@ -109,4 +109,3 @@ function copyResult() {
         alert("Erro ao copiar. Tente selecionar manualmente.");
     });
 }
-...
